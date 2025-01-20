@@ -1,0 +1,45 @@
+// Fonts
+@font-face {
+  font-family: 'AkkuratPro';
+  src: url('../fonts/AkkuratPro-Regular.woff2') format('woff2'),
+       url('../fonts/AkkuratPro-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FormulaCondensed';
+  src: url('../fonts/FormulaCondensed-Light.woff') format('woff2'),
+       url('../fonts/FormulaCondensed-Light.woff') format('woff');
+  font-weight: 400;
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'FormulaCondensed-Bold';
+  src: url('../fonts/FormulaCondensed-Bold.woff') format('woff2'),
+       url('../fonts/FormulaCondensed-Bold.woff') format('woff');
+  font-weight: 500;
+  font-style: bold;
+}
+
+// Plain Colors
+$white: #f4f4f3;
+$text-white: rgba(244, 244, 243, 0.75);
+$black: #1d1d1d;
+$deep-blue: #36009C;
+$coral-green: #00C2BA;
+$light-purple: #CE96FB;
+$mid-purple: #534FA4;
+$purple: #9765E0;
+
+// Gradients
+$gradient-heading: linear-gradient(90deg, #9765E0 0%, rgba(82, 55, 122, 0.9) 100%);
+$gradient-icons: linear-gradient(90deg, #CE96FB 0%, #9765E0 52%, #534FA4 96%);
+$gradient-button: linear-gradient(82deg, #9765E0 44%, rgba(82, 55, 122, 0.9) 100%);
+$gradient-active-service: linear-gradient(90deg, #CE96FB 0%, #00C2BA 100%);
+
+// Fonts
+$font-text: 'AkkuratPro', sans-serif;
+$font-heading: 'FormulaCondensed', sans-serif;
+$font-heading-bolded: 'FormulaCondensed-Bold', sans-serif;
